@@ -14,4 +14,5 @@ class Solution(object):
 
 nums = list(map(int, input("Enter numbers separated by spaces: ").split()))
 solution = Solution()
+print(solution.containsDuplicate(nums))
 
