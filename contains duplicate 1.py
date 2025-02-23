@@ -11,3 +11,7 @@ class Solution(object):
             else:
                 h.add(nums[i])
         return False
+
+nums = list(map(int, input("Enter numbers separated by spaces: ").split()))
+solution = Solution()
+
